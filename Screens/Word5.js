@@ -6,8 +6,15 @@ import { styles } from "../src/theme/appTheme";
 import { useWord } from "../src/hooks/useWord";
 
 const Word5 = () => {
-  const { word, setWord, findWord, matrixRandom, setMatrizRandom, valid } =
-    useWord();
+  const {
+    word,
+    setWord,
+    findWord,
+    matrixRandom,
+    setMatrizRandom,
+    valid,
+    matrix,
+  } = useWord();
   return (
     <View>
       <View style={styles.contentClear}>
