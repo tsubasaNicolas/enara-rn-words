@@ -57,5 +57,5 @@ export const useWord = () => {
 
   const findWord = (x) => setWord(word + x);
 
-  return { word, setWord, findWord, matrixRandom, valid };
+  return { word, setWord, findWord, matrixRandom, setMatrizRandom, valid };
 };
