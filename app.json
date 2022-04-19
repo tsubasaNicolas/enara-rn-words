@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "https://github.com/tsubasaNicolas/enara-rn-words",
+    "githubUrl": "https://github.com/tsubasaNicolas/enara-rn-words"
   }
 }
